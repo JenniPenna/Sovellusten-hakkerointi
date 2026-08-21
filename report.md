@@ -62,6 +62,7 @@ Komento:
 objdump -d test | grep -A 20 "<main>"
 ```
 Tulos:
+
 0000000000001149 <main>:
     1149:       f3 0f 1e fa             endbr64
     114d:       55                      push   %rbp

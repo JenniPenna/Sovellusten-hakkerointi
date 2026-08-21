@@ -29,6 +29,7 @@ file test
 ```
 Tulos:
 test: ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, BuildID[sha1]=65516172b524113dbad404d53f19610bdc74d5d2, for GNU/Linux 3.2.0, not stripped
+
 file-komento kertoo test-tiedoston perusteella, että kyseessä on 64-bittinen ELF-binääri. Binääri on tarkoitettu x86-64-arkkitehtuurille, ohjelma käyttää dynaamisesti linkitettyjä kirjastoja ja binäärissä on symbolitietoja.
 ### 2. Binääristä löytyvät merkkijonot
 Komento:
@@ -49,6 +50,7 @@ Tulos:
        0000000000000107  0000000000000000  AX       0     0     16
   [18] .rodata           PROGBITS         0000000000002000  00002000
        0000000000000011  0000000000000000   A       0     0     4
+
 Binääri on jaettu erilaisiin sectioneihin. Section .text sisältää ohjelman koodia ja .rodata sisältää luettavaa dataa esim. merkkijonoja.
 
 ### 4. Konekielinen koodi
@@ -67,6 +69,7 @@ Tulos:
     1160:       b8 00 00 00 00          mov    $0x0,%eax
     1165:       5d                      pop    %rbp
     1166:       c3                      ret
+
 Main alkaa osoitteesta 0x1149. objdump-komennolla siis näkee esim main()-funktion sijainnin ja sen konekielisen toteutuksen. 
 
 ## Lähteet

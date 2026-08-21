@@ -38,7 +38,8 @@ strings test | grep "Hello"
 ```
 Tulos:
 Hello World!
-Lähdekoodin Hello World! löytyy myös käännetystä binääristä. Merkkijono on siis tallennettu binääriin. 
+
+Lähdekoodin tulos siis löytyy myös käännetystä binääristä. 
 
 ### 3. Sectionit
 Komento:

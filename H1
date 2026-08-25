@@ -1,0 +1,93 @@
+# h1 Freedom of Action, Control, and Risk Mitigation
+
+## a1) Scopeen sisältyvä ympäristö
+
+**Kotiverkon infrastruktuuri**
+- Reititin
+- Kotitalouden Wi-Fi-verkko
+
+**Kurssiin liittyvät laitteet**
+- Läppäri
+- iPhone
+
+**Pilvipalvelut ja kurssialustat**
+- GitHub-tili
+- Moodle
+- OneDrive
+
+**Data**
+- Kurssimateriaalit
+- GitHub-repositorion sisältö
+- MFA-tunnisteet ja salasanat
+- Kotiverkon asetukset
+
+---
+
+## a2) Scopeen kuulumattomat asiat
+
+**Perheenjäsenten laitteet: puhelimet, tietokoneet**  
+Perustelu: En omista enkä hallitse näitä laitteita, enkä käytä niitä kurssin tehtäviin.
+
+**Kotitalouden IoT-laitteet: pesukone, älypainopuntari, Smart TV**  
+Perustelu: Laitteet eivät käsittele kurssiin liittyvää dataa, enkä hallitse niiden asetuksia.
+
+**Viihdelaitteet: Smart TV:n sovellukset**  
+Perustelu: Ei liity kurssin harjoituksiin eikä vaikuta ISMS:n tavoitteisiin.
+
+---
+
+## a3) Rajapinnat ja boundaryt
+
+**Pilvipalvelut**  
+- GitHub – kurssin repositoriot  
+- Moodle – kurssialusta  
+- OneDrive – tiedostojen tallennus ja varmuuskopiointi  
+
+Palvelut ovat ulkopuolisten toimittajien hallinnassa, mutta käytän niitä kurssin suorittamiseen.
+
+**Etäyhteydet ja verkon rajapinnat**  
+- Kotiverkon Wi-Fi  
+- Reititin  
+- Internet-yhteys ISP:n kautta  
+
+Reitittimen sisäpuolella olevat laitteet ovat minun hallinnassani ja sen ulkopuolella oleva verkko ei ole.
+
+**Toimittajat ja palveluntarjoajat**
+- Internet-palveluntarjoaja: vastaa internet-yhteydestä  
+- Pilvipalveluiden tarjoajat: hallitsevat palveluiden infrastruktuuria  
+- Laitteiden valmistajat: vastaavat laitteiden ohjelmistopäivityksistä ja turvallisuudesta  
+
+Nämä vaikuttavat ympäristöni turvallisuuteen, mutta eivät ole hallinnassani.
+
+---
+
+## Verkko- ja rajapintakaavio
+<img width="466" height="681" alt="image" src="https://github.com/user-attachments/assets/bf0ae69d-b360-4997-9c48-f49e7689740f" />
+
+
+## Evidence Addendum
+
+**Kotiverkon infrastruktuuri**  
+Todisteena voidaan esittää kuvakaappaus reitittimen kirjautumissivusta tai Wi-Fi-asetuksista.
+
+**Kurssiin liittyvät laitteet**  
+Todisteena voidaan esittää valokuva läppäristä tai kuvakaappaus sen järjestelmäasetuksista.  
+iPhonesta voidaan esittää kuvakaappaus esim. MFA-asetuksista.
+
+**Pilvipalvelut ja kurssialustat**  
+Todisteena voidaan esittää kuvakaappaus GitHub-tilin repositoriosta, Moodlen kurssin etusivusta tai OneDrive-kansion sisällöstä.
+
+**Data**  
+Todisteena voidaan esittää kuvakaappaus kurssimateriaaleista (PDF-tiedostot), muistiinpanojen kansiosta tai GitHub-repositorion tiedostorakenteesta.
+
+---
+
+## b) Kiinnostuneet osapuolet ja ISO 27001 -viitealueet
+
+| Kiinnostunut osapuoli | Tarve tai vaatimus | ISO 27001 -viitealue | Miten osoitan vaatimuksen täyttyvän (evidence) |
+|------------------------|--------------------|-----------------------|-----------------------------------------------|
+| Minä | Kurssitehtävien jatkuvuus, datan säilyminen, laitteiden toimivuus | Planning / Operation | OneDrive-varmuuskopioiden toimivuus, GitHub-repositorion näkyvyys, laitteen päivitysasetusten kuvakaappaus |
+| Perheenjäsenet | Yksityisyys, ettei opiskelulaboratorio häiritse kotiverkon normaalia käyttöä | Context / Leadership | Reitittimen Wi-Fi-asetusten kuvakaappaus, selkeä rajaus siitä, mitä laitteita käytän |
+| Internet-palveluntarjoaja | Sopimuksen noudattaminen, laitteiden turvallinen käyttö | Operation / Performance Evaluation | Reitittimen perusasetusten kuvakaappaus |
+| Pilvipalveluiden tarjoajat | Tilin turvallisuus, palvelun käyttöehdot | Support / Operation | Kuvakaappaus MFA-asetuksista, GitHub-tilin suojausasetuksista |
+

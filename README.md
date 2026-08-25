@@ -1,4 +1,3 @@
-# Sovellusten-hakkerointi-testi
-eka tehtävä 
+# Sovellusten-hakkerointi-kurssi
 
 this is my first task
